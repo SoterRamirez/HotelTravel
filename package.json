@@ -1,0 +1,26 @@
+{
+  "name": "hoteltravel",
+  "version": "1.0.0",
+  "description": "Hotel Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoterRamirez/HotelTravel.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "CSS",
+    "HTML",
+    "Page",
+    "Demo"
+  ],
+  "author": "Soter Ramírez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoterRamirez/HotelTravel/issues"
+  },
+  "homepage": "https://github.com/SoterRamirez/HotelTravel#readme"
+}
