@@ -17,22 +17,19 @@
     <nav></nav>
     <div id="tab_bar"></div>
     <section class="w-full h-screen">
-      <div id="home">
-        <div class="w-full h-3/4">
-          <div class="w-full h-full flex flex-col absolute">
-            <input
-              type="text"
-              value="Buscar"
-              disabled
-              class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
-            />
-            <button class="bg-indigo-500">Explora</button>
-          </div>
-          <div class="w-full h-full">
-            <img src="./img/sanFrancisco.jpg" alt="San Francisco" />
-          </div>
-        </div>
-      </div>
+      <div class="w-full h-3/4" id="home">
+			<div class=" w-full h-full flex flex-col items-center py-4 space-y-96 lg:space-y-0 lg:items-start lg:justify-start lg:pt-56 absolute">
+				<input
+					class="lg:hidden p-3 outline-none transition duration-300 rounded-full shadow-lg focus-within:shadow-sm focus:outline-none focus:ring-2  focus:w-11/12 "
+					type="search" name="Searchbar" placeholder="San Francisco" id="">
+				<button class="bg-white w-48 h-auto p-3 lg:ml-16 rounded-full shadow-md font-semibold text-principal transition duration-500 ease-in-out hover:bg-primario hover:text-white transform hover:-translate-y-1 hover:scale-110" id='explore-more'>
+					Explorar
+				</button>
+			</div>
+			<div class="w-full h-full bg-cover lg:bg-cover lg:bg-sanFranciscoDesktop lg:bg-center">
+				<img class="w-full h-full lg:hidden" src="./img/sanFrancisco.jpg" alt="">
+			</div>
+		</div>
       <div id="recomendadas"></div>
       <div id="rentas_destacadas"></div>
       <div id="faq"></div>
