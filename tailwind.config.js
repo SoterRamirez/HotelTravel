@@ -7,6 +7,7 @@ module.exports = {
       primario: "#CC2D4A",
       secundario: "#8FA206",
       terciario: "#61AEC9",
+      white: "#fff",
     },
     extend: {
       backgroundImage: {
@@ -30,6 +31,7 @@ module.exports = {
         principal: "#CC2D4A",
         secundario: "#8FA206",
         terciario: "#61AEC9",
+        white: "#fff",
       },
     },
     fontFamily: {
