@@ -24,3 +24,9 @@
 .Card:nth-child(even) .Card--info__subtitle {
   @apply text-terciario;
 }
+.CardTitle{
+  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+}
+.CardInfo{
+  @apply text-sm pl-8 text-black mr-24;
+}

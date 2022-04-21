@@ -32,6 +32,7 @@ module.exports = {
         secundario: "#8FA206",
         terciario: "#61AEC9",
         white: "#fff",
+        black: "#000",
       },
     },
     fontFamily: {
