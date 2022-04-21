@@ -683,10 +683,6 @@ select {
   width: auto;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -757,9 +753,18 @@ select {
   padding-bottom: 1rem;
 }
 
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
