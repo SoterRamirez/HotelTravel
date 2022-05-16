@@ -15,21 +15,20 @@
   </head>
   <body class="font-Montserrat">
     <nav></nav>
-    <div id="tab_bar"></div>
     <section class="w-full h-screen">
       <div class="w-full h-3/4" id="home">
-			<div class=" w-full h-full flex flex-col items-center py-4 space-y-96 lg:space-y-0 lg:items-start lg:justify-start lg:pt-56 absolute">
-				<input
-					class="lg:hidden p-3 outline-none transition duration-300 rounded-full shadow-lg focus-within:shadow-sm focus:outline-none focus:ring-2  focus:w-11/12 "
-					type="search" name="Searchbar" placeholder="San Francisco" id="">
-				<button class="bg-white w-48 h-auto p-3 lg:ml-16 rounded-full text-lg shadow-md font-semibold text-principal transition duration-500 ease-in-out hover:bg-primario hover:text-white transform hover:-translate-y-1 hover:scale-110" id='explore-more'>
-					Explorar
-				</button>
-			</div>
-			<div class="w-full h-full bg-cover lg:bg-cover lg:bg-sanFranciscoDesktop lg:bg-center">
-				<img class="w-full h-full lg:hidden" src="./img/sanFrancisco.jpg" alt="">
-			</div>
-		</div>
+        <div class=" w-full h-full flex flex-col items-center py-4 space-y-96 lg:space-y-0 lg:items-start lg:justify-start lg:pt-56 absolute">
+          <input
+            class="lg:hidden p-3 outline-none transition duration-300 rounded-full shadow-lg focus-within:shadow-sm focus:outline-none focus:ring-2  focus:w-11/12 "
+            type="search" name="Searchbar" placeholder="San Francisco" id="">
+          <button class="bg-white w-48 h-auto p-3 lg:ml-16 rounded-full text-lg shadow-md font-semibold text-principal transition duration-500 ease-in-out hover:bg-primario hover:text-white transform hover:-translate-y-1 hover:scale-110" id='explore-more'>
+            Explorar
+          </button>
+        </div>
+        <div class="w-full h-full bg-cover lg:bg-cover lg:bg-sanFranciscoDesktop lg:bg-center">
+          <img class="w-full h-full lg:hidden" src="./img/sanFrancisco.jpg" alt="">
+        </div>
+		  </div>
       <div class="p-6" id="recomendados">
         <p class="text-3xl font-semibold text-primario">Recomendados</p>
         <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 scrollbar-hide md:scrollbar-default">
@@ -56,21 +55,53 @@
           </div>
         </div>
       </div>
-      <div class="px-2 h-full w-full" id="rentas_destacadas">
-        <p class="text-3xl text-primario font-semibold pb-6 mt-6">Rentas Destacadas</p>
+      <div class="px-2 h-auto w-full" id="rentas_destacadas">
+        <p class="text-3xl text-primario font-semibold pb-6 mt-6">Estancias Destacadas</p>
         <div class="w-full h-full flex flex-col space-y-6 items-center justify-center">
           <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
             <p class="CardTitle" >Chicago</p>
             <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
           </div>
-          <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
-            <p class="CardTitle" >Chicago</p>
+          <div class="w-full h-96 bg-LA bg-cover rounded-xl">
+            <p class="CardTitle" >Los Angeles</p>
+            <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
+          </div>
+          <div class="w-full h-96 bg-miami bg-cover rounded-xl">
+            <p class="CardTitle">Miami</p>
+            <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
+          </div>
+          <div class="w-full h-96 bg-bali bg-cover rounded-xl">
+            <p class="CardTitle">Bali</p>
             <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
           </div>
         </div>
       </div>
-      <div id="faq"></div>
+      <div class="w-full h-full" id="faqs">
+        <div class="w-full h-full px-6 flex flex-col space-y-4">
+          <p class="text-3xl font-semibold text-principal mt-6 ">FAQS</p>
+          <div>
+            <p class="text-xl font-medium text-principal ">Política de Cancelación</p>
+            <p class="text-md pt-2 ">Para estancias menores a una semana es importante avisar con 3 días de anticipación, de caso contrario será sancionado.</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-principal ">Métodos de pago</p>
+            <p class="text-md pt-2 ">Aceptamos distintos métodos de pago: VISA, MasterCard, American Express, PayPal y Binance,</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-principal">Mascotas</p>
+            <p class="text-md pt-2">El tema de las mascotas dependerá directamente del anfitrión.</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-principal">Información de Seguridad</p>
+            <p class="text-md pt-2">Todas nuestras estancias cuentan con seguro en caso de accidentes.</p>
+          </div>
+          <div>
+            <p class="text-xl font-medium text-principal">Estancias Largas</p>
+            <p class="text-md pt-2">Contamos con estancias de hasta 3 meses, en este caso es requerido un anticipo con un monto del 50% del valor de la renta.</p>
+          </div>
+        </div>
+      </div>
+      <footer></footer>
     </section>
-    <footer></footer>
   </body>
 </html>

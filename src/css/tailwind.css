@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.Card {
-  @apply w-48 h-64 shadow-md rounded-lg overflow-hidden shrink-0 snap-center;
+.Card{
+	@apply w-48 h-64 flex-none shadow-md rounded-lg transform transition-all hover:-translate-y-4 hover:shadow-xl 
 }
 .Card--cover {
   @apply w-full h-3/5 bg-cover;
@@ -25,7 +25,12 @@
   @apply text-terciario;
 }
 .CardTitle{
-  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+	@apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
+}
+@layer utilities {
+	.scrollbar::-webkit-scrollbar {
+	  background: transparent
+	}
 }
 .CardInfo{
   @apply text-sm pl-8 text-black mr-24;
