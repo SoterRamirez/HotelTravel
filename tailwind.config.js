@@ -33,6 +33,7 @@ module.exports = {
         chicago: "url('../img/chicago.jpg')",
         europe: "url('../img/europe.jpg')",
         iceland: "url('../img/iceland.jpg')",
+        icon: "url('../img/favicon.ico')",
       },
       textColor: {
         principal: "#CC2D4A",
