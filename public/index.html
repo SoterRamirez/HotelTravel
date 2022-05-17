@@ -35,86 +35,137 @@
         </div>
 		  </div>
       <div class="p-6" id="recomendados">
-        <p class="text-3xl font-semibold text-primario">Recomendados</p>
-        <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 scrollbar-hide md:scrollbar-default">
+        <p class="text-3xl font-semibold text-principal ">Recomendados</p>
+        <div
+          class="w-auto h-80 lg:h-80 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 lg:space-x-6 scrollbar">
           <div class="Card">
-            <div class="Card--cover bg-norway"></div>
-            <div class="Card--info">
-              <p class="Card--info__title">Norway</p>
-              <p class="Card--info__subtitle">Paisajes increíbles</p>
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-yosemite bg-cover"></div>
+            <div class="bg-secondary h-2/5 rounded-b-lg dark:bg-gray-700 ">
+              <p class="text-xl px-4 py-2 font-semibold text-white">Yosemite</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Un respiro del mundo</p>
             </div>
           </div>
           <div class="Card">
-            <div class="Card--cover bg-new_york"></div>
-            <div class="Card--info">
-              <p class="Card--info__title">New York</p>
-              <p class="Card--info__subtitle">La gran manzana</p>
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
+            <div class=" h-2/5 rounded-b-lg dark:bg-gray-800 ">
+              <p class="text-xl px-4 py-2 font-semibold text-tertiary">New York</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-tertiary">Gran ciudad,
+                explora ahora!</p>
             </div>
           </div>
           <div class="Card">
-            <div class="Card--cover bg-yosemite"></div>
-            <div class="Card--info">
-              <p class="Card--info__title">Yosemite</p>
-              <p class="Card--info__subtitle">Una pausa del mundo</p>
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+            <div class=" bg-secondary h-2/5 rounded-b-lg dark:bg-gray-700 ">
+              <p class="text-xl px-4 py-2 font-semibold text-white">Norway</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Conoce nuevos lugares</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-seattle bg-cover"></div>
+            <div class="h-2/5 rounded-b-lg dark:bg-gray-800">
+              <p class="text-xl px-4 py-2 font-semibold text-tertiary">Seattle</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-tertiary">Una ciudad para
+                disfrutar al máximo</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-switzerland bg-cover"></div>
+            <div class="bg-secondary h-2/5 rounded-b-lg dark:bg-gray-700">
+              <p class="text-xl px-4 py-2 font-semibold text-white">Switzerland</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-white">El mejor chocolate caliente que
+                probarás</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-sydney bg-center bg-cover"></div>
+            <div class=" h-2/5 rounded-b-lg dark:bg-gray-800 ">
+              <p class="text-xl px-4 py-2 font-semibold text-tertiary">Sydney</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-tertiary">Conoce la
+                famosísima Opera</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-europe bg-center bg-cover"></div>
+            <div class="bg-secondary h-2/5 rounded-b-lg dark:bg-gray-700 ">
+              <p class="text-xl px-4 py-2 font-semibold text-white">Edinburgh</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Castillos y tiempos medievales</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div id="image-container" class="w-full h-3/5 rounded-t-lg bg-europe bg-center bg-cover"></div>
+            <div class="bg-secondary h-2/5 rounded-b-lg dark:bg-gray-800 ">
+              <p class="text-xl px-4 py-2 font-semibold text-white">Edinburgh</p>
+              <p class="text-sm px-4 overflow-ellipsis pr-2 text-white">Castillos y
+                tiempos medievales</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="px-2 h-auto w-full" id="rentas_destacadas">
-        <p class="text-3xl text-primario font-semibold pb-6 mt-6">Estancias Destacadas</p>
-        <div class="w-full h-full flex flex-col space-y-6 items-center justify-center">
-          <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
-            <p class="CardTitle" >Chicago</p>
-            <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
-          </div>
-          <div class="w-full h-96 bg-LA bg-cover rounded-xl">
-            <p class="CardTitle" >Los Angeles</p>
-            <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
-          </div>
-          <div class="w-full h-96 bg-miami bg-cover rounded-xl">
-            <p class="CardTitle">Miami</p>
-            <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
-          </div>
-          <div class="w-full h-96 bg-bali bg-cover rounded-xl">
-            <p class="CardTitle">Bali</p>
-            <p class="CardInfo">2 habitaciones, um baño y una cocina</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-full h-full" id="faqs">
-        <div class="w-full h-full px-6 flex flex-col space-y-4">
-          <p class="text-3xl font-semibold text-principal mt-6 ">FAQS</p>
-          <div>
-            <p class="text-xl font-medium text-principal ">Política de Cancelación</p>
-            <p class="text-md pt-2 ">Para estancias menores a una semana es importante avisar con 3 días de anticipación, de caso contrario será sancionado.</p>
-          </div>
-          <div>
-            <p class="text-xl font-medium text-principal ">Métodos de pago</p>
-            <p class="text-md pt-2 ">Aceptamos distintos métodos de pago: VISA, MasterCard, American Express, PayPal y Binance,</p>
-          </div>
-          <div>
-            <p class="text-xl font-medium text-principal">Mascotas</p>
-            <p class="text-md pt-2">El tema de las mascotas dependerá directamente del anfitrión.</p>
-          </div>
-          <div>
-            <p class="text-xl font-medium text-principal">Información de Seguridad</p>
-            <p class="text-md pt-2">Todas nuestras estancias cuentan con seguro en caso de accidentes.</p>
-          </div>
-          <div>
-            <p class="text-xl font-medium text-principal">Estancias Largas</p>
-            <p class="text-md pt-2">Contamos con estancias de hasta 3 meses, en este caso es requerido un anticipo con un monto del 50% del valor de la renta.</p>
+      <div class="w-full h-auto lg:px-2">
+        <div class="px-2 h-full w-full lg:px-6" id="rentas_destacadas">
+          <p class="text-3xl text-primario font-semibold pb-6 mt-6">Rentas destacadas</p>
+          <div class="w-full h-full flex flex-col items-center justify-center">
+            <div class="w-full h-96 bg-chicago bg-cover rounded-xl mb-8 lg:bg-center">
+              <p class="CardTitle lg:text-black">Chicago</p>
+              <p class="text-sm pl-8 text-black mr-24 lg:text-lg">2 habitaciones, baño y cocina</p>
+            </div>
+            <div class="lg:flex lg:h-full lg:w-full lg:space-x-4">
+              <div class="w-full h-96 bg-LA bg-cover rounded-xl mb-8 lg:h-auto">
+                <p class="CardTitle">Los Ángeles</p>
+                <p class="text-sm pl-8 text-white mr-24 lg:text-lg">3 habitaciones, 2 baños, cocina y excelente vista al mar.
+                </p>
+              </div>
+              <div class="lg:h-full lg:w-full lg:flex lg:flex-col lg:pl-8">
+                <div class="w-full h-96 bg-miami bg-cover rounded-xl mb-8">
+                  <p class="CardTitle">Miami</p>
+                  <p class="text-sm pl-8 text-white mr-24 lg:text-lg">4 habitaciones, 3 baños, cocina y piscina privada</p>
+                </div>
+                <div class="w-full h-96 bg-bali bg-cover rounded-xl mb-8">
+                  <p class="CardTitle">Bali</p>
+                  <p class="text-sm pl-8 text-white mr-24 lg:text-lg">2 habitaciones, baño, cocina y piscina privada</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="w-full h-full" id="faqs">
+          <div class="w-full h-full px-6 flex flex-col space-y-4">
+            <p class="text-3xl font-semibold text-principal mt-6 ">FAQS</p>
+            <div>
+              <p class="text-xl font-medium text-principal ">Política de Cancelación</p>
+              <p class="text-md pt-2 ">Para estancias menores a una semana es importante avisar con 3 días de anticipación, de
+                caso contrario será sancionado.</p>
+            </div>
+            <div>
+              <p class="text-xl font-medium text-principal ">Métodos de pago</p>
+              <p class="text-md pt-2 ">Aceptamos distintos métodos de pago: VISA, MasterCard, American Express, PayPal y
+                Binance,</p>
+            </div>
+            <div>
+              <p class="text-xl font-medium text-principal">Mascotas</p>
+              <p class="text-md pt-2">El tema de las mascotas dependerá directamente del anfitrión.</p>
+            </div>
+            <div>
+              <p class="text-xl font-medium text-principal">Información de Seguridad</p>
+              <p class="text-md pt-2">Todas nuestras estancias cuentan con seguro en caso de accidentes.</p>
+            </div>
+            <div>
+              <p class="text-xl font-medium text-principal">Estancias Largas</p>
+              <p class="text-md pt-2">Contamos con estancias de hasta 3 meses, en este caso es requerido un anticipo con un
+                monto del 50% del valor de la renta.</p>
+            </div>
+          </div>
+        </div>
+        <footer class="w-full h-auto bg-gray-50 p-6 mt-8  space-y-2">
+          <p class="text-lg">Acerca de</p>
+          <p class="text-sm text-gray-300">Inversionistas</p>
+          <p class="text-sm text-gray-300">Empleos</p>
+          <p class="text-sm text-gray-300">Política de Privacidad</p>
+          <p class="text-sm text-gray-300">Términos y Condiciones</p>
+          <p class="text-sm text-gray-300">Hotel Travel Inc.</p>
+          <p class="text-sm text-gray-300">Síguenos</p>
+        </footer>
       </div>
-      <footer class="w-full h-auto bg-gray-50 p-6 mt-8  space-y-2">
-        <p class="text-lg">Acerca de</p>
-        <p class="text-sm text-gray-300">Inversionistas</p>
-        <p class="text-sm text-gray-300">Empleos</p>
-        <p class="text-sm text-gray-300">Política de Privacidad</p>
-        <p class="text-sm text-gray-300">Términos y Condiciones</p>
-        <p class="text-sm text-gray-300">Hotel Travel Inc.</p>
-        <p class="text-sm text-gray-300">Síguenos</p>
-      </footer>
     </section>
     <div class="w-full h-16 bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden" id="tab_bar">
       <a href="#home">
