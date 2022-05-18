@@ -1,12 +1,12 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Hoteltravel" />
+<div align="center" id="top">
+  <img src="https://soterramirez.dev/src/images/logo.png" alt="Hoteltravel" />
 
   &#xa0;
 
-  <!-- <a href="https://hoteltravel.netlify.app">Demo</a> -->
+  <a href="https://hoteltravel.netlify.app">Demo</a>
 </div>
 
-<h1 align="center">Hoteltravel</h1>
+<h1 align="center">Hotel Travel</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/SoterRamirez/hoteltravel?color=56BEB8">
@@ -17,16 +17,22 @@
 
   <img alt="License" src="https://img.shields.io/github/license/SoterRamirez/hoteltravel?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/SoterRamirez/hoteltravel?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/SoterRamirez/hoteltravel?color=56BEB8" />
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/SoterRamirez/hoteltravel?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/SoterRamirez/hoteltravel?color=56BEB8" />
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/SoterRamirez/hoteltravel?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/SoterRamirez/hoteltravel?color=56BEB8" />
 </p>
 
 
+<h4 align="center"> 
+	🚧  Hotel-travel 🚀  Finish  🚧
+</h4>
+
+<hr>
+
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -43,9 +49,8 @@ Describe your project
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Responsive Layout;\
+:heavy_check_mark: Dark Mode toggle -> to switch click on the **moon** icon located on the navbar (top on desktop version) or tab_bar (bottom on mobile version);\
 
 ## :rocket: Technologies ##
 
@@ -64,22 +69,28 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ## :checkered_flag: Starting ##
 
 ```bash
+# Open terminal
 # Clone this project
-- Clone the project locally
-- Open terminal and run `npm install` command
-- Run `npm run tw:build`
-- If you want to immediately see on the browser every change you make, run `npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch`
+$ git clone https://github.com/SoterRamirez/hoteltravel
 
-## Features
-- Responsive Layout
-- Dark Mode toggle -> to switch click on the **moon** icon located on the navbar (top on desktop version) or tab_bar (bottom on mobile version)
+# Access
+$ cd hoteltravel
+
+# Install dependencies
+$ Run `npm install` command
+
+# Run the project
+$ npm run tw:build
+
+# If you want to immediately see on the browser every change you make, run `npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch`
+```
 
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/SoterRamirez" target="_blank">Soter Ramírez</a>
+Made with :heart: by <a href="https://github.com/SoterRamirez" target="_blank">Isaí Ramírez</a>
 
 &#xa0;
 
