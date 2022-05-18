@@ -26,7 +26,7 @@
 
 
 <h4 align="center"> 
-	🚧  Hotel-travel 🚀  Finish  🚧
+	🚀  Hotel-travel - Finish 🚀
 </h4>
 
 <hr>
@@ -45,7 +45,11 @@
 
 ## :dart: About ##
 
-Describe your project
+Landing page de un Hotel, utilizando Tailwind, un framework CSS que te permitirá agilizar el desarrollo de los proyectos además de aplicar las mejores prácticas y herramientas.
+Construí un diseño con Responsive Design.
+Agrego Dark Mode al proyecto.
+
+Gracias por los comentarios Ismael 3:)
 
 ## :sparkles: Features ##
 
